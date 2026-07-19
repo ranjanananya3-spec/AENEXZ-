@@ -1,0 +1,8 @@
+# Program 6: Multiplication table using a while loop
+
+num = int(input("Enter a number: "))
+i = 1
+
+while i <= 10:
+    print(num, "x", i, "=", num * i)
+    i += 1
