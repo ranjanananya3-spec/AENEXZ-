@@ -1,0 +1,47 @@
+================================================================================
+DIABETES PROGRESSION PREDICTION PIPELINE SUMMARY REPORT
+================================================================================
+
+1. DATA CHARACTERISTICS
+- Target variable: Quantitative measure of disease progression one year after baseline.
+- Features: Age, Sex, Body Mass Index (BMI), Average Blood Pressure (BP),
+  and 6 blood serum measurements (S1, S2, S3, S4, S5, S6).
+- Note: Features are already mean-centered and scaled in the scikit-learn dataset.
+
+2. MULTICOLLINEARITY ANALYSIS (VIF Scores)
+- A VIF > 5 indicates potential multicollinearity, while VIF > 10 is severe.
+- In this dataset, several blood serum measurements exhibit severe multicollinearity:
+  * s1: 59.20
+  * s2: 39.19
+  * s3: 15.40
+  * s5: 10.08
+  * s4: 8.89
+  * bmi: 1.51
+  * s6: 1.48
+  * bp: 1.46
+  * sex: 1.28
+  * age: 1.22
+
+Key Observations on Collinearity:
+- s1 and s2 exhibit extremely high VIF scores (> 50 and > 30), indicating redundancy.
+- This multicollinearity inflates standard error of coefficients in Ordinary Linear Regression,
+  making coefficient estimation unstable. Regularization (L1/L2) is strongly recommended.
+
+3. PERFORMANCE METRICS COMPARISON
+            Model Dataset       R2       MAE      RMSE
+Linear Regression   Train 0.527919 43.483504 53.558843
+Linear Regression    Test 0.452603 42.794095 53.853446
+          RidgeCV   Train 0.520922 43.887199 53.954313
+          RidgeCV    Test 0.460714 42.986521 53.452963
+          LassoCV   Train 0.519014 44.091192 54.061670
+          LassoCV    Test 0.471473 42.792622 52.917092
+
+4. KEY FINDINGS & INSIGHTS
+- Baseline Linear Regression test R²: 0.4526
+- RidgeCV test R²: 0.4607
+- LassoCV test R²: 0.4715
+- Regularization (Ridge and Lasso) helps address multicollinearity and improves coefficient stability.
+- LassoCV performs automatic feature selection by setting less important coefficients to zero,
+  which yields a simpler and more interpretable model while maintaining comparable predictive power.
+- Top predictors usually include BMI, s5 (Triglycerides), and BP.
+================================================================================
