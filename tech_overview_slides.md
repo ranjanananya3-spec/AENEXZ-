@@ -1,20 +1,20 @@
 # Slide Structure: Who We Are & Technology Stack (2 Slides)
-**Company**: Aenexz Private Limited, Bangalore  
+**Company**: Aenexz Tech Private Limited, Bangalore  
 **Domain**: Data Science & Data Analytics  
 **Context**: Diabetes Progression Predictive Project Review  
 
 ---
 
-## Slide 1: Who We Are — Aenexz Private Limited
+## Slide 1: Who We Are — Aenexz Tech Private Limited
 
 ### 📋 Slide Text (Keep on screen)
-* **Company Profile**: Premier Data Science & Advanced Analytics firm based in Bangalore.
-* **Working Domain**: Predictive Healthcare, Precision Analytics, and Business Intelligence.
-* **Business Mission**: Transforming raw clinical datasets into high-fidelity, interpretable machine learning solutions.
-* **Core Strengths**: End-to-end predictive modeling, mathematical data audits, and feature-count optimization.
+* **Company Profile**: A leading technology-driven EdTech and professional training platform located in HSR Layout, Bangalore.
+* **Core Business**: Providing industry-aligned, mentor-led programs in emerging fields like Data Science, Machine Learning, and Web Development.
+* **Mission**: Bridging the gap between academic theory and industry requirements through project-based, practical internships.
+* **Key Offerings**: Industry capstone projects, hands-on tool mentoring, and job placement assistance.
 
 ### 🗣️ Presenter Talking Points (What to say)
-> *"Hello everyone. I am representing Aenexz Private Limited. Based in Bangalore, we are a professional Data Science and Analytics firm. Our core business mission is to take complex, raw datasets—like patient health databases—and transform them into clear, deployable, and interpretable machine learning pipelines. We specialize in precision analytics and statistical auditing to ensure all our models are mathematically sound and robust."*
+> *"Hello everyone. I am representing Aenexz Tech Private Limited. Based in Bangalore, Aenexz is a leading technology-driven EdTech platform. The company's core mission is to bridge the gap between academic theory and practical industry requirements by providing mentor-led, hands-on training in domains like Data Science, Artificial Intelligence, and Web Development. This diabetes progression project is a capstone internship project developed under their professional training structure."*
 
 ---
 
