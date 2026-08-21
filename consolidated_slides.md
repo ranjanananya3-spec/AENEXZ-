@@ -8,16 +8,17 @@
 ## Slide 1: Who We Are & Our Technology Stack
 
 ### 📋 Slide Text (Keep on screen)
-* **Aenexz Private Limited**: Data Science & Analytics firm based in Bangalore.
-* **Working Domain**: Predictive Healthcare & Advanced Clinical Analytics.
-* **Core Technology Stack**:
-  * **Language**: Python 3.
-  * **Data & Engineering**: `pandas` and `numpy`.
-  * **ML & Statistics**: `scikit-learn` (OLS, RidgeCV, LassoCV) & `statsmodels` (VIF).
-  * **Visuals**: `seaborn` and `matplotlib` (heatmaps and residual diagnostics).
+* **Aenexz Private Limited**: Professional Data Science & Data Analytics firm headquartered in Bangalore.
+* **Working Domain**: Predictive Healthcare, Statistical Auditing, and Clinical Informatics.
+* **Business Mission**: Transforming raw clinical databases into explainable, deployable machine learning pipelines.
+* **Technology Infrastructure**:
+  * **Core Language**: Python 3.
+  * **Data Wrangling**: `pandas` and `numpy` (used for data integrity checks & null audits).
+  * **Statistical Algorithms**: `scikit-learn` (OLS, RidgeCV, LassoCV) & `statsmodels` (VIF analysis).
+  * **Reporting Visuals**: `seaborn` and `matplotlib` (heatmaps, fit lines, and Q-Q diagnostics).
 
 ### 🗣️ Presenter Talking Points (What to say)
-> *"Hello everyone. I am representing Aenexz Private Limited, a Data Science firm based in Bangalore. This project lies in the Predictive Healthcare domain. We built a data pipeline using Python. We used Pandas and NumPy for validation, Scikit-Learn for training OLS, Ridge, and Lasso models, and Statsmodels to resolve collinearity. All diagnostics are plotted using Seaborn and Matplotlib to ensure statistics are clean and audit-ready."*
+> *"Hello everyone. I am representing Aenexz Private Limited, a specialized Data Science and Analytics firm based in Bangalore. Our core business mission is to bridge raw data with clinical decision-making. In this project, we built a modular pipeline using Python. We used Pandas and NumPy for validation, Scikit-Learn for model building, and Statsmodels for multicollinearity diagnostics. All analytical and residual plots were created using Seaborn and Matplotlib to guarantee statistical rigor before deployability."*
 
 ---
 
